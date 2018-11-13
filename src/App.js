@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './The_Hideout.jpg';
+import logoReact from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -8,13 +9,17 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <p>Ryan Tabassi</p>
-          </header>
+        </header>
+          <br />
           <br />
           <img src={logo} alt="logo" />
 
-            <h2><code>Welcome to Are's Basement</code></h2>
-            <br />
-            <h3><code>I'm building something awesome! My website is currently under construction, but you can checkout my GitHub Page below:</code></h3>
+            <h2>
+              <code>Welcome to Are's Basement</code>
+            </h2>
+            <h3>
+              <code>I'm building something awesome! My website is currently under construction, but you can checkout my GitHub Page below:</code>
+            </h3>
 
           <a
             className="App-link"
@@ -24,6 +29,24 @@ class App extends Component {
           >
           <h4>GitHub Page</h4>
           </a>
+
+          <div className="fl w-50 pa3 dim">
+            <div className="outline tc pv3">
+            <img src={logoReact} className="App-logo" alt="logo" />
+          </div>
+          </div>
+
+          <div className="fl w-50 pa3 dim">
+            <div className="outline tc pv3">
+            <img src={logoReact} className="App-logo" alt="logo" />
+          </div>
+          </div>
+
+          <footer>
+            <br />
+            <br />
+            Made with love and React, by me!
+          </footer>
       </div>
     );
   }
