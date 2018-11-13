@@ -14,21 +14,21 @@ class App extends Component {
             <code className="blue">const</code> <code>ryanTabassi</code> = <code className="orange">fullStackDeveloper;</code>
           </div>
 
-          <a href="https://linkedin.com/n/ryan-tabassi">
+          <a href="https://linkedin.com/in/ryan-tabassi">
           <div className="fl w-20 pa2 dim bg-black">
-                <i class="fab fa-linkedin fa-lg"></i>
+                <i class="fab fa-linkedin fa-2x"></i>
           </div>
           </a>
 
           <a href="https://twitter.com/Ar3Tea">
           <div className="fl w-20 pa2 dim bg-black">
-              <i class="fab fa-twitter fa-lg"></i>
+              <i class="fab fa-twitter fa-2x"></i>
           </div>
           </a>
 
           <a href="https://github.com/ar3tea">
           <div className="fl w-20 pa2 dim bg-black">
-              <i class="fab fa-github fa-lg"></i>
+              <i class="fab fa-github fa-2x"></i>
           </div>
           </a>
 
