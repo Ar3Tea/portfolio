@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 import logo from './The_Hideout.jpg';
 import logoReact from './logo.svg';
 import './App.css';
@@ -7,11 +8,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <p>Ryan Tabassi</p>
-        </header>
-          <br />
-          <br />
+        <div>
+          <div className="fl w-third pa3 dim bg-black">Ryan Tabassi</div>
+          <div className="fl w-third pa3 dim bg-black">Add Social Icons</div>
+          <div className="fl w-third pa3 dim bg-black">Ryan.Tabassi@Gmail.com</div>
+        </div>
+        <div className="fl w-100 pa1 bn"></div>
+
           <img src={logo} alt="logo" />
 
             <h2>
@@ -41,8 +44,7 @@ class App extends Component {
             <img src={logoReact} className="App-logo" alt="logo" />
           </div>
           </div>
-
-          <footer className="App-footer">
+          <footer>
             Made with love and React, by me!
           </footer>
       </div>
