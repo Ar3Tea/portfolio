@@ -42,9 +42,7 @@ class App extends Component {
           </div>
           </div>
 
-          <footer>
-            <br />
-            <br />
+          <footer className="App-footer">
             Made with love and React, by me!
           </footer>
       </div>
