@@ -9,9 +9,26 @@ class App extends Component {
     return (
       <div className="App">
         <div>
-          <div className="fl w-third pa3 dim bg-black">Ryan Tabassi</div>
-          <div className="fl w-third pa3 dim bg-black">Add Social Icons</div>
+          <div className="fl w-third pa3 dim bg-black">
+            <code className="blue">const</code> <code>ryanTabassi</code> = <code className="orange">fullStackDeveloper;</code>
+          </div>
+
+          <div className="fl w-third pa3 dim bg-black">
+            <a href="https://linkedin.com/n/ryan-tabassi">
+              <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a href="https://twitter.com/Ar3Tea">
+            <i class="fab fa-twitter"></i>
+            </a>
+
+            <a href="https://github.com/ar3tea">
+            <i class="fab fa-github"></i>
+            </a>
+          </div>
+
           <div className="fl w-third pa3 dim bg-black">Ryan.Tabassi@Gmail.com</div>
+
         </div>
         <div className="fl w-100 pa1 bn"></div>
 
