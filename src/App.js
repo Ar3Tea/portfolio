@@ -1,18 +1,22 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
 import banner from './styles/The_Hideout.jpg';
 import logoReact from './styles/logo.svg';
+import Portfolio from './components/Portfolio.js';
 import './styles/App.css';
 
 class App extends Component {
   render() {
     return (
+<Router>
       <div className="App">
         <header className="fl w-100 pa2 bg-black">
         <div>
+
           <div className="fl w-20 pa2 dim bg-black">
-            <p><code className="blue">const</code> <code>ryanTabassi</code> = <code className="orange">fullStackDeveloper;</code></p>
+            <p><code className="blue">const</code> <code>ryanTabassi</code>= <code className="orange">fullStackDeveloper;</code></p>
           </div>
+
 
           <a href="https://linkedin.com/in/ryan-tabassi">
           <div className="fl w-20 pa2 dim bg-black">
@@ -56,6 +60,10 @@ class App extends Component {
           <h4>GitHub Page</h4>
           </a>
 
+          <h3>
+            <code>Or you can checkout my Portfolio <Link to="/portfolio">HERE</Link></code>
+          </h3>
+
           <div className="fl w-50 pa3 dim">
             <div className="outline tc pv3">
               <img src={logoReact} className="App-logo" alt="logo" />
@@ -67,11 +75,16 @@ class App extends Component {
               <img src={logoReact} className="App-logo" alt="logo" />
             </div>
           </div>
+
           <br />
+
           <footer>
             Made with love and React, by me!
           </footer>
+
+          <Route path="/portfolio" component={Portfolio} />
       </div>
+    </Router>
     );
   }
 }
