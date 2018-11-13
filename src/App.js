@@ -9,25 +9,35 @@ class App extends Component {
     return (
       <div className="App">
         <div>
-          <div className="fl w-third pa3 dim bg-black">
-            <code className="blue">const</code> <code>ryanTabassi</code> = <code className="orange">fullStackDeveloper;</code>
+          <div className="fl w-20 pa3 dim bg-black">
+            <code className="blue">let</code> <code>ryanTabassi</code> = <code className="orange">fullStackDeveloper;</code>
           </div>
 
-          <div className="fl w-third pa3 dim bg-black">
+          <div className="fl w-20 pa3 dim bg-black">
             <a href="https://linkedin.com/n/ryan-tabassi">
-              <i class="fab fa-linkedin"></i>
-            </a>
-
-            <a href="https://twitter.com/Ar3Tea">
-            <i class="fab fa-twitter"></i>
-            </a>
-
-            <a href="https://github.com/ar3tea">
-            <i class="fab fa-github"></i>
+              <div>
+                <i class="fab fa-linkedin fa-lg"></i>
+              </div>
             </a>
           </div>
 
-          <div className="fl w-third pa3 dim bg-black">Ryan.Tabassi@Gmail.com</div>
+          <div className="fl w-20 pa3 dim bg-black">
+            <a href="https://twitter.com/Ar3Tea">
+            <div>
+              <i class="fab fa-twitter fa-lg"></i>
+            </div>
+            </a>
+          </div>
+
+          <div className="fl w-20 pa3 dim bg-black">
+            <a href="https://github.com/ar3tea">
+            <div>
+              <i class="fab fa-github fa-lg"></i>
+            </div>
+            </a>
+          </div>
+
+          <div className="fl w-20 pa3 dim bg-black"><code>Ryan.Tabassi@Gmail.com</code></div>
 
         </div>
         <div className="fl w-100 pa1 bn"></div>
