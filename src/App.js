@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom"
 import banner from './styles/The_Hideout.jpg';
 import logoReact from './styles/logo.svg';
 import Portfolio from './components/Portfolio.js';
+import Header from './components/Header.js';
+import Footer from './components/Footer.js';
+import Banner from './components/Banner.js';
 import './styles/App.css';
 
 class App extends Component {
@@ -10,39 +13,9 @@ class App extends Component {
     return (
 <Router>
       <div className="App">
-        <header className="fl w-100 pa2 bg-black">
-        <div>
+        <Header />
 
-          <div className="fl w-20 pa2 dim bg-black">
-            <p><code className="blue">const</code> <code>ryanTabassi</code>= <code className="orange">fullStackDeveloper;</code></p>
-          </div>
-
-
-          <a href="https://linkedin.com/in/ryan-tabassi">
-          <div className="fl w-20 pa2 dim bg-black">
-                <i class="fab fa-linkedin fa-2x"></i>
-          </div>
-          </a>
-
-          <a href="https://twitter.com/Ar3Tea">
-          <div className="fl w-20 pa2 dim bg-black">
-              <i class="fab fa-twitter fa-2x"></i>
-          </div>
-          </a>
-
-          <a href="https://github.com/ar3tea">
-          <div className="fl w-20 pa2 dim bg-black">
-              <i class="fab fa-github fa-2x"></i>
-          </div>
-          </a>
-
-          <div className="fl w-20 pa2 dim bg-black"><p><code>Ryan.Tabassi @Gmail.com</code></p></div>
-        </div>
-      </header>
-
-        <div className="fl w-100 pa1 bn"></div>
-
-          <img src={banner} alt="logo" />
+        <Banner />
 
             <h2>
               <code>Welcome to Are's Basement</code>
@@ -62,6 +35,7 @@ class App extends Component {
 
           <h3>
             <code>Or you can checkout my Portfolio <Link to="/portfolio">HERE</Link></code>
+            <Route path="/portfolio" component={Portfolio} />
           </h3>
 
           <div className="fl w-50 pa3 dim">
@@ -77,12 +51,7 @@ class App extends Component {
           </div>
 
           <br />
-
-          <footer>
-            Made with love and React, by me!
-          </footer>
-
-          <Route path="/portfolio" component={Portfolio} />
+        <Footer />
       </div>
     </Router>
     );
