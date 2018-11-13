@@ -7,22 +7,23 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1>Ryan Tabassi</h1>
+          <p>Ryan Tabassi</p>
+          </header>
+          <br />
           <img src={logo} alt="logo" />
-          <p>
+
             <h2><code>Welcome to Are's Basement</code></h2>
             <br />
-            <code>I'm building something awesome! My website is currently under construction, but you can checkout my GitHub Page below:</code>
-          </p>
+            <h3><code>I'm building something awesome! My website is currently under construction, but you can checkout my GitHub Page below:</code></h3>
+
           <a
             className="App-link"
             href="https://ar3tea.github.io"
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub Page
+          <h4>GitHub Page</h4>
           </a>
-        </header>
       </div>
     );
   }
