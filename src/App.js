@@ -8,6 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <header>
         <div>
           <div className="fl w-20 pa3 dim bg-black">
             <code className="blue">let</code> <code>ryanTabassi</code> = <code className="orange">fullStackDeveloper;</code>
@@ -15,31 +16,26 @@ class App extends Component {
 
           <div className="fl w-20 pa3 dim bg-black">
             <a href="https://linkedin.com/n/ryan-tabassi">
-              <div>
                 <i class="fab fa-linkedin fa-lg"></i>
-              </div>
             </a>
           </div>
 
           <div className="fl w-20 pa3 dim bg-black">
             <a href="https://twitter.com/Ar3Tea">
-            <div>
               <i class="fab fa-twitter fa-lg"></i>
-            </div>
             </a>
           </div>
 
           <div className="fl w-20 pa3 dim bg-black">
             <a href="https://github.com/ar3tea">
-            <div>
               <i class="fab fa-github fa-lg"></i>
-            </div>
             </a>
           </div>
 
           <div className="fl w-20 pa3 dim bg-black"><code>Ryan.Tabassi@Gmail.com</code></div>
-
         </div>
+      </header>
+
         <div className="fl w-100 pa1 bn"></div>
 
           <img src={logo} alt="logo" />
