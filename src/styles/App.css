@@ -30,6 +30,17 @@
   color: orange;
 }
 
+@media all and (max-width: 600px) {
+  p {
+    font-size: 10px;
+    line-height: 2;
+  }
+  i {
+    line-height: 2em;
+  }
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

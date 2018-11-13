@@ -11,7 +11,7 @@ class App extends Component {
         <header className="fl w-100 pa2 bg-black">
         <div>
           <div className="fl w-20 pa2 dim bg-black">
-            <code className="blue">const</code> <code>ryanTabassi</code> = <code className="orange">fullStackDeveloper;</code>
+            <p><code className="blue">const</code> <code>ryanTabassi</code> = <code className="orange">fullStackDeveloper;</code></p>
           </div>
 
           <a href="https://linkedin.com/in/ryan-tabassi">
@@ -32,7 +32,7 @@ class App extends Component {
           </div>
           </a>
 
-          <div className="fl w-20 pa2 dim bg-black"><code>Ryan.Tabassi@Gmail.com</code></div>
+          <div className="fl w-20 pa2 dim bg-black"><p><code>Ryan.Tabassi @Gmail.com</code></p></div>
         </div>
       </header>
 
