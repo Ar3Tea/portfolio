@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
-import logo from './The_Hideout.jpg';
-import logoReact from './logo.svg';
-import './App.css';
+import banner from './styles/The_Hideout.jpg';
+import logoReact from './styles/logo.svg';
+import './styles/App.css';
 
 class App extends Component {
   render() {
@@ -38,7 +38,7 @@ class App extends Component {
 
         <div className="fl w-100 pa1 bn"></div>
 
-          <img src={logo} alt="logo" />
+          <img src={banner} alt="logo" />
 
             <h2>
               <code>Welcome to Are's Basement</code>
@@ -58,15 +58,16 @@ class App extends Component {
 
           <div className="fl w-50 pa3 dim">
             <div className="outline tc pv3">
-            <img src={logoReact} className="App-logo" alt="logo" />
-          </div>
+              <img src={logoReact} className="App-logo" alt="logo" />
+            </div>
           </div>
 
           <div className="fl w-50 pa3 dim">
             <div className="outline tc pv3">
-            <img src={logoReact} className="App-logo" alt="logo" />
+              <img src={logoReact} className="App-logo" alt="logo" />
+            </div>
           </div>
-          </div>
+          <br />
           <footer>
             Made with love and React, by me!
           </footer>
