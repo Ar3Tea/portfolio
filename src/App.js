@@ -8,31 +8,31 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header>
+        <header className="fl w-100 pa2 bg-black">
         <div>
-          <div className="fl w-20 pa3 dim bg-black">
+          <div className="fl w-20 pa2 dim bg-black">
             <code className="blue">let</code> <code>ryanTabassi</code> = <code className="orange">fullStackDeveloper;</code>
           </div>
 
-          <div className="fl w-20 pa3 dim bg-black">
-            <a href="https://linkedin.com/n/ryan-tabassi">
+          <a href="https://linkedin.com/n/ryan-tabassi">
+          <div className="fl w-20 pa2 dim bg-black">
                 <i class="fab fa-linkedin fa-lg"></i>
-            </a>
           </div>
+          </a>
 
-          <div className="fl w-20 pa3 dim bg-black">
-            <a href="https://twitter.com/Ar3Tea">
+          <a href="https://twitter.com/Ar3Tea">
+          <div className="fl w-20 pa2 dim bg-black">
               <i class="fab fa-twitter fa-lg"></i>
-            </a>
           </div>
+          </a>
 
-          <div className="fl w-20 pa3 dim bg-black">
-            <a href="https://github.com/ar3tea">
+          <a href="https://github.com/ar3tea">
+          <div className="fl w-20 pa2 dim bg-black">
               <i class="fab fa-github fa-lg"></i>
-            </a>
           </div>
+          </a>
 
-          <div className="fl w-20 pa3 dim bg-black"><code>Ryan.Tabassi@Gmail.com</code></div>
+          <div className="fl w-20 pa2 dim bg-black"><code>Ryan.Tabassi@Gmail.com</code></div>
         </div>
       </header>
 
