@@ -6,16 +6,12 @@ class Footer extends Component {
     return (
       <div>
         <div>
-          <div className="fl w-50 pa3 dim">
-            <div className="outline tc pv3">
-              <img src={logoReact} className="App-logo" alt="logo" />
-            </div>
+          <div className="fl w-50 pa3 bw1 bb bt b--black">
+            <img src={logoReact} className="App-logo" alt="logo" />
           </div>
 
-          <div className="fl w-50 pa3 dim">
-            <div className="outline tc pv3">
+          <div className="fl w-50 pa3 bw1 bb bt b--black">
               <img src={logoReact} className="App-logo" alt="logo" />
-            </div>
           </div>
       </div>
         Made with love and React, by me!

@@ -30,7 +30,7 @@ class Blog extends React.Component {
         { this.state.posts.map(({fields}, i) =>
           <BlogItem key={i} {...fields} />
         )}
-        <Link to="/home" className="App-link"><code>Back Home</code></Link>
+        <Link to="/home" className="App-link"><h3><code>Back Home</code></h3></Link>
       <Switch>
         <Route exact path="/home" component={Home} />
       </Switch>
