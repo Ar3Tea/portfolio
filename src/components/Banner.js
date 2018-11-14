@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import banner from '../styles/The_Hideout.jpg';
+import '../styles/App.css';
 
 class Banner extends Component {
   render() {
