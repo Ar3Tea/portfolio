@@ -11,7 +11,7 @@ class Portfolio extends Component {
     return (
       <div>
         <div className="fl w-50 pa3 dim">
-          <div className="outline tc pv3 left">
+          <div className="outline tc pv3">
             <img src={logoReact} className="App-logo" alt="gig" />
             Showcase 1
           </div>
