@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Link } from "react-router-dom";
+import { Route, Link, Switch } from "react-router-dom";
 import Portfolio from '../components/Portfolio.js';
 import Blog from '../components/Blog.js';
 
@@ -24,8 +24,12 @@ class Message extends Component {
         <h3>
           <code>You can also checkout my Portfolio <Link to="/portfolio" className="App-link">Here</Link> Or my <Link to="/blog" className="App-link">Blog</Link></code>
         </h3>
-        <Route path="/blog" component={Blog} />
-        <Route path="/portfolio" component={Portfolio} />
+
+        <Switch>
+          <Route exact path="/blog" component={Blog} />
+          <Route exact path="/portfolio" component={Portfolio} />
+        </Switch>
+
       </div>
     );
   }

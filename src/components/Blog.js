@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import * as contentful from 'contentful';
-import { Route, Link} from "react-router-dom";
+import { Route, Link, Switch} from "react-router-dom";
 import BlogItem from '../components/BlogItem.js';
+import Home from '../components/Home.js';
 
 class Blog extends React.Component {
   state = {
@@ -29,6 +30,10 @@ class Blog extends React.Component {
         { this.state.posts.map(({fields}, i) =>
           <BlogItem key={i} {...fields} />
         )}
+        <Link to="/home" className="App-link"><code>Back Home</code></Link>
+      <Switch>
+        <Route exact path="/home" component={Home} />
+      </Switch>
       </div>
     )
   }
