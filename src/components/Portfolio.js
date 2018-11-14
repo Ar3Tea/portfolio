@@ -12,7 +12,7 @@ class Portfolio extends Component {
       <div>
         <div className="fl w-50 pa3 dim">
           <div className="outline tc pv3 left">
-            <img src={gig1} className="portfolio-gig" alt="gig" />
+            <img src={logoReact} className="App-logo" alt="gig" />
             Showcase 1
           </div>
         </div>
