@@ -21,18 +21,19 @@ class Portfolio extends Component {
             /*  <a className="close" onClick={close}>
                 &times;
               </a> */
-              <div className="header"> Showcase Title </div>
+              <div className="header"> Go Feed Me </div>
               <div className="content">
                 {' '}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, a nostrum.
-                Dolorem, repellat quidem ut, minima sint vel eveniet quibusdam voluptates
-                delectus doloremque, explicabo tempore dicta adipisci fugit amet dignissimos?
+                A beautiful food delivery site, similar to GrubHub, for Rural Georgia. The site was built using Codeigniter,
+                but was unfortunately severely restricted by the agency who built it initially. The business owner came to me
+                in hopes she could further her design and regain access to more parts of their site. This is what I gave them:
                 <br />
-                <img src={logoReact} className="App-logo" alt="gig" />
                 <br />
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur sit
-                commodi beatae optio voluptatum sed eius cumque, delectus saepe repudiandae
-                explicabo nemo nam libero ad, doloribus, voluptas rem alias. Vitae?
+                <img src={gig1} alt="gig" />
+                <br />
+                <br />
+                Transferring all the old code from a CentOS server to a new WordPress setup, allowed the business owner to regain
+                control of their site, and allowed me to give them a much more fluid design.
               </div>
               <div className="actions">
                 <Popup
@@ -41,10 +42,9 @@ class Portfolio extends Component {
                   closeOnDocumentClick
                   >
                   <span className="popup">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
-                    magni omnis delectus nemo, maxime molestiae dolorem numquam
-                    mollitia, voluptate ea, accusamus excepturi deleniti ratione
-                    sapiente! Laudantium, aperiam doloribus. Odit, aut.
+                    CSS customization <br />
+                  JavaScript customization <br />
+                    PayPal integration
                   </span>
                 </Popup>
 
