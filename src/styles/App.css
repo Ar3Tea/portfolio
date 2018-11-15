@@ -1,3 +1,5 @@
+/* Major Classes */
+
 .App {
   text-align: center;
   color: white;
@@ -35,19 +37,52 @@
   align: left;
 }
 
+/* Popup Classes */
+
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+  color: black;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+/* Global Classes */
+
 a {
   color: #53b3cb;
 }
 
-button {
-  border-style: hidden;
-  background-color: inherit;
-  color: inherit;
-}
 
-.popup {
-  color: black;
-}
+
+/* Small Adjustments */
 
 .left {
   text-align: left;
@@ -61,13 +96,18 @@ button {
   color: #E6CE00;
 }
 
+.popup {
+  color: black;
+}
+
+/* Media Queries and Keyframes */
+
 @media all and (max-width: 600px) {
   p {
     font-size: 10px;
     line-height: 2em;
   }
 }
-
 
 @keyframes App-logo-spin {
   from {

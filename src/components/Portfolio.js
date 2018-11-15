@@ -13,19 +13,55 @@ class Portfolio extends Component {
     return (
 
       <div>
-
         <div className="fl w-50 pa3">
           <div className="outline tc pv3">
-            <Popup trigger={<img src={logoReact} className="App-logo" alt="gig" />} position="right center">
-              <div className="popup">
-                Popup content here !!
-                <img src={logoReact} className="App-logo" alt="logo" />
-                <img src={logoReact} className="App-logo" alt="logo" />
-                <img src={logoReact} className="App-logo" alt="logo" />
+        <Popup trigger={<img src={logoReact} className="App-logo" alt="gig" />} modal>
+          {close => (
+            <div className="modal">
+              <a className="close" onClick={close}>
+                &times;
+              </a>
+              <div className="header"> Showcase Title </div>
+              <div className="content">
+                {' '}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, a nostrum.
+                Dolorem, repellat quidem ut, minima sint vel eveniet quibusdam voluptates
+                delectus doloremque, explicabo tempore dicta adipisci fugit amet dignissimos?
+                <br />
+                <img src={logoReact} className="App-logo" alt="gig" />
+                <br />
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur sit
+                commodi beatae optio voluptatum sed eius cumque, delectus saepe repudiandae
+                explicabo nemo nam libero ad, doloribus, voluptas rem alias. Vitae?
               </div>
-              </Popup>
-          </div>
-        </div>
+              <div className="actions">
+                <Popup
+                  trigger={<button className="button"> Tech </button>}
+                  position="top center"
+                  closeOnDocumentClick
+                  >
+                  <span>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
+                    magni omnis delectus nemo, maxime molestiae dolorem numquam
+                    mollitia, voluptate ea, accusamus excepturi deleniti ratione
+                    sapiente! Laudantium, aperiam doloribus. Odit, aut.
+                  </span>
+                </Popup>
+                <button
+                  className="button"
+                  onClick={() => {
+                    console.log('modal closed ')
+                    close()
+                  }}
+                  >
+                  Close Popup
+                </button>
+              </div>
+            </div>
+          )}
+        </Popup>
+      </div>
+    </div>
 
 
         <div className="fl w-50 pa3 dim">
