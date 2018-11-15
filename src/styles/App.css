@@ -30,13 +30,23 @@
 }
 
 .portfolio-gig {
-  height: 10vmin;
-  width: 20vmin;
+  height: 30vmin;
+  width: 30vmin;
   align: left;
 }
 
 a {
   color: #53b3cb;
+}
+
+button {
+  border-style: hidden;
+  background-color: inherit;
+  color: inherit;
+}
+
+.popup {
+  color: black;
 }
 
 .left {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Link, Switch } from "react-router-dom";
+// import { Route, Link, Switch } from "react-router-dom";
 import App from '../App.js';
 
 class Home extends Component {
