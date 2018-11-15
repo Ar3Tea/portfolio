@@ -18,9 +18,9 @@ class Portfolio extends Component {
         <Popup trigger={<img src={logoReact} className="App-logo" alt="gig" />} modal>
           {close => (
             <div className="modal">
-              <a className="close" onClick={close}>
+            /*  <a className="close" onClick={close}>
                 &times;
-              </a>
+              </a> */
               <div className="header"> Showcase Title </div>
               <div className="content">
                 {' '}
@@ -40,22 +40,14 @@ class Portfolio extends Component {
                   position="top center"
                   closeOnDocumentClick
                   >
-                  <span>
+                  <span className="popup">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
                     magni omnis delectus nemo, maxime molestiae dolorem numquam
                     mollitia, voluptate ea, accusamus excepturi deleniti ratione
                     sapiente! Laudantium, aperiam doloribus. Odit, aut.
                   </span>
                 </Popup>
-                <button
-                  className="button"
-                  onClick={() => {
-                    console.log('modal closed ')
-                    close()
-                  }}
-                  >
-                  Close Popup
-                </button>
+
               </div>
             </div>
           )}
