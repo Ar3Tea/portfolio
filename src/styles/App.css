@@ -103,6 +103,11 @@ a {
   color: black;
 }
 
+.animate {
+  animation-name: Popup-animation;
+  animation-duration: 0.8s;
+}
+
 /* Media Queries and Keyframes */
 
 @media all and (max-width: 600px) {
@@ -131,5 +136,14 @@ a {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes Popup-animation {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
   }
 }

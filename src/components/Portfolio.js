@@ -15,7 +15,7 @@ class Portfolio extends Component {
       <div>
         <div className="fl w-50 pa3">
           <div className="outline tc pv3">
-        <Popup trigger={<img src={logoReact} className="App-logo" alt="gig" />} modal>
+        <Popup className="animate" trigger={<img src={logoReact} className="App-logo" alt="gig" />} modal>
           {close => (
             <div className="modal">
             /*  <a className="close" onClick={close}>
