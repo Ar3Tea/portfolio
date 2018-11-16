@@ -21,7 +21,7 @@ class Portfolio extends Component {
             /*  <a className="close" onClick={close}>
                 &times;
               </a> */
-              <div className="header"> Go Feed Me </div>
+              <div className="header"><strong> Go Feed Me </strong></div>
               <div className="content">
                 {' '}
                 A beautiful food delivery site, similar to GrubHub, for Rural Georgia. The site was built using Codeigniter,

@@ -28,7 +28,7 @@ class Header extends Component {
           </div>
         </a>
 
-        <div className="fl w-20 pa2 dim"><p><strong><code>Ryan.Tabassi @ Gmail.com</code></strong></p></div>
+        <div className="fl w-20 pa2 dim"><p className="left"><strong><code>Ryan.Tabassi @ Gmail.com</code></strong></p></div>
       </div>
     );
   }
