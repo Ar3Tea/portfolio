@@ -22,7 +22,7 @@ class Message extends Component {
           <h4>GitHub Page</h4>
         </a>
         <h3>
-          <code>You can also look at my Portfolio <Link to="/portfolio" className="App-link">Here</Link> Or read my <Link to="/blog" className="App-link">Blog</Link></code>
+          <code>You can also look at my WIP Portfolio <Link to="/portfolio" className="App-link">Here</Link> Or read my <Link to="/blog" className="App-link">Blog</Link> soon</code>
         </h3>
 
         <Switch>

@@ -57,7 +57,7 @@ class Portfolio extends Component {
 
 
         <div className="fl w-50 pa3 dim">
-          <div className="outline tc pv3">
+          <div className="outline tc pv3" onclick="openTab('b1');" >
             <img src={logoReact} className="App-logo" alt="logo" />
             Showcase 2
           </div>
