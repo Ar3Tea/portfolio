@@ -3,6 +3,7 @@ import Header from './components/Header.js';
 import Footer from './components/Footer.js';
 import Banner from './components/Banner.js';
 import Message from './components/Message.js';
+import Reviews from './components/Reviews.js';
 import './styles/App.css';
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
         <Header />
         <Banner />
         <Message />
+        <Reviews />
         <Footer />
       </div>
     );
