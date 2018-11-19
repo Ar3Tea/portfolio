@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link, Route, Switch } from 'react-router-dom'
 import Showcase from '../components/Showcase.js';
-import Home from '../components/Home.js';
+import Gfm from '../components/Gfm.js';
 import Popup from "reactjs-popup";
 import '../styles/App.css';
 import logoReact from '../styles/logo.svg';
@@ -48,7 +48,7 @@ class Portfolio extends Component {
                   PayPal integration
                   </span>
                 </Popup>
-
+                <span><Link to="/Gfm"><h3><code>Read More</code></h3></Link></span>
               </div>
             </div>
           )}
@@ -98,7 +98,7 @@ class Portfolio extends Component {
 </div>
 
 
-<div className="fl w-50 pa3">
+<div className="fl w-50 pa3 none">
   <div className="outline tc pv3">
 <Popup className="animate" trigger={<img src={logoReact} className="App-logo" alt="gig" />} modal>
   {close => (
@@ -141,7 +141,7 @@ class Portfolio extends Component {
 </div>
 
 
-<div className="fl w-50 pa3">
+<div className="fl w-50 pa3 none">
   <div className="outline tc pv3">
 <Popup className="animate" trigger={<img src={logoReact} className="App-logo" alt="gig" />} modal>
   {close => (
@@ -184,7 +184,7 @@ class Portfolio extends Component {
 </div>
 
 
-<div className="fl w-50 pa3">
+<div className="fl w-50 pa3 none">
   <div className="outline tc pv3">
 <Popup className="animate" trigger={<img src={logoReact} className="App-logo" alt="gig" />} modal>
   {close => (
@@ -227,7 +227,7 @@ class Portfolio extends Component {
 </div>
 
 
-<div className="fl w-50 pa3">
+<div className="fl w-50 pa3 none">
   <div className="outline tc pv3">
 <Popup className="animate" trigger={<img src={logoReact} className="App-logo" alt="gig" />} modal>
   {close => (
@@ -272,8 +272,9 @@ class Portfolio extends Component {
 
         <Link to="/home" className="App-link"><h3><code>Back Home</code></h3></Link>
       <Switch>
-        <Route exact path="/home" component={Home} />
+        <Route exact path="/" />
         <Route exact path="/showcase" component={Showcase} />
+        <Route exact path="/gfm" component={Gfm} />
       </Switch>
 
       </div>

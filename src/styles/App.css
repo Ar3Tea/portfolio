@@ -108,6 +108,10 @@ a {
   animation-duration: 0.8s;
 }
 
+.none {
+  display: none;
+}
+
 /* Media Queries and Keyframes */
 
 @media all and (max-width: 600px) {
