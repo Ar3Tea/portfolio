@@ -21,9 +21,7 @@ class Portfolio extends Component {
         <Popup className="animate" trigger={<img src={logoReact} className="App-logo" alt="gig" />} modal>
           {close => (
             <div className="modal">
-            /*  <a className="close" onClick={close}>
-                &times;
-              </a> */
+
               <div className="header"><strong> Go Feed Me </strong></div>
               <div className="content">
                 {' '}
@@ -64,9 +62,7 @@ class Portfolio extends Component {
     <Popup className="animate" trigger={<img src={logoReact} className="App-logo" alt="gig" />} modal>
       {close => (
         <div className="modal">
-        /*  <a className="close" onClick={close}>
-            &times;
-          </a> */
+
           <div className="header"><strong> Scooters n Chairs </strong></div>
           <div className="content">
             {' '}
@@ -96,18 +92,16 @@ class Portfolio extends Component {
         </div>
       )}
     </Popup>
+    </div>
   </div>
-</div>
 
 
-<div className="fl w-50 pa3 none">
-  <div className="outline tc pv3">
-<Popup className="animate" trigger={<img src={logoReact} className="App-logo" alt="gig" />} modal>
-  {close => (
-    <div className="modal">
-    /*  <a className="close" onClick={close}>
-        &times;
-      </a> */
+  <div className="fl w-50 pa3 none">
+    <div className="outline tc pv3">
+      <Popup className="animate" trigger={<img src={logoReact} className="App-logo" alt="gig" />} modal>
+        {close => (
+          <div className="modal">
+
       <div className="header"><strong> Go Feed Me </strong></div>
       <div className="content">
         {' '}
@@ -148,9 +142,7 @@ class Portfolio extends Component {
 <Popup className="animate" trigger={<img src={logoReact} className="App-logo" alt="gig" />} modal>
   {close => (
     <div className="modal">
-    /*  <a className="close" onClick={close}>
-        &times;
-      </a> */
+
       <div className="header"><strong> Go Feed Me </strong></div>
       <div className="content">
         {' '}
@@ -191,9 +183,7 @@ class Portfolio extends Component {
 <Popup className="animate" trigger={<img src={logoReact} className="App-logo" alt="gig" />} modal>
   {close => (
     <div className="modal">
-    /*  <a className="close" onClick={close}>
-        &times;
-      </a> */
+
       <div className="header"><strong> Go Feed Me </strong></div>
       <div className="content">
         {' '}
@@ -234,9 +224,7 @@ class Portfolio extends Component {
 <Popup className="animate" trigger={<img src={logoReact} className="App-logo" alt="gig" />} modal>
   {close => (
     <div className="modal">
-    /*  <a className="close" onClick={close}>
-        &times;
-      </a> */
+
       <div className="header"><strong> Go Feed Me </strong></div>
       <div className="content">
         {' '}

@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
-import Banner from './components/Banner.js';
-import Message from './components/Message.js';
 import Home from './components/Home.js';
 import Portfolio from './components/Portfolio.js';
 import Blog from './components/Blog.js';

@@ -3,7 +3,6 @@ import { Link, Route, Switch } from 'react-router-dom';
 import Portfolio from '../components/Portfolio.js';
 import Home from '../components/Home.js';
 import '../styles/App.css';
-import gig1 from '../styles/GFM.jpg';
 import logoReact from '../styles/logo.svg'
 
 class Showcase extends Component {
