@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link, Route, Switch } from 'react-router-dom'
+import Banner from '../components/Banner.js';
 import Showcase from '../components/Showcase.js';
 import Gfm from '../components/Gfm.js';
 import Popup from "reactjs-popup";
@@ -14,6 +15,7 @@ class Portfolio extends Component {
     return (
 
       <div>
+        <Banner />
         <div className="fl w-50 pa3">
           <div className="outline tc pv3">
         <Popup className="animate" trigger={<img src={logoReact} className="App-logo" alt="gig" />} modal>
@@ -270,10 +272,10 @@ class Portfolio extends Component {
 </div>
 
 
-        <Link to="/home" className="App-link"><h3><code>Back Home</code></h3></Link>
+        <Link to="/" className="App-link"><h3><code>Back Home</code></h3></Link>
       <Switch>
         <Route exact path="/" />
-        <Route exact path="/showcase" component={Showcase} />
+        <Route exact path="showcase" component={Showcase} />
         <Route exact path="/gfm" component={Gfm} />
       </Switch>
 

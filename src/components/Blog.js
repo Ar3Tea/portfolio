@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import * as contentful from 'contentful';
 import { Route, Link, Switch} from "react-router-dom";
+import Banner from '../components/Banner.js';
 import BlogItem from '../components/BlogItem.js';
 import Home from '../components/Home.js';
 
@@ -25,12 +26,13 @@ class Blog extends React.Component {
   render() {
     return (
       <div>
+        <Banner />
         <h1>Coding Blog</h1>
         <br/>
         { this.state.posts.map(({fields}, i) =>
           <BlogItem key={i} {...fields} />
         )}
-        <Link to="/home" className="App-link"><h3><code>Back Home</code></h3></Link>
+        <Link to="/" className="App-link"><h3><code>Back Home</code></h3></Link>
       <Switch>
         <Route exact path="/home" component={Home} />
       </Switch>

@@ -112,6 +112,11 @@ a {
   display: none;
 }
 
+.small {
+  display: inline-block;
+  width: 50%;
+}
+
 /* Media Queries and Keyframes */
 
 @media all and (max-width: 600px) {
