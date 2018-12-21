@@ -132,11 +132,11 @@ class Portfolio extends Component {
                 <div className="actions">
                   <Popup trigger={<button className = "button" > Tech < /button>} position="top center" closeOnDocumentClick="closeOnDocumentClick">
                     <span className="popup">
-                      CSS customization
+                      HTML from scratch
                       <br/>
-                      JavaScript customization
+                      CSS from scratch
                       <br/>
-                      PayPal integration
+                      Template page creation for future additions
                     </span>
                   </Popup>
 
