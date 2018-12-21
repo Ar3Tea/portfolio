@@ -10,19 +10,19 @@ class Header extends Component {
         </div>
 
 
-        <a href="https://linkedin.com/in/ryan-tabassi" target="_blank">
+        <a href="https://linkedin.com/in/ryan-tabassi" target="_blank" rel="noopener noreferrer">
           <div className="fl w-20 pa1 dim">
             <i class="fab fa-linkedin fa-2x"></i>
           </div>
         </a>
 
-        <a href="https://twitter.com/Ar3Tea" target="_blank">
+        <a href="https://twitter.com/Ar3Tea" target="_blank" rel="noopener noreferrer">
           <div className="fl w-20 pa1 dim ">
             <i class="fab fa-twitter fa-2x"></i>
           </div>
         </a>
 
-        <a href="https://github.com/ar3tea" target="_blank">
+        <a href="https://github.com/ar3tea" target="_blank" rel="noopener noreferrer">
           <div className="fl w-20 pa1 dim">
             <i class="fab fa-github fa-2x"></i>
           </div>

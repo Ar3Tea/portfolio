@@ -113,7 +113,7 @@ class Portfolio extends Component {
 
                 <div className="header">
                   <strong>
-                    Go Feed Me
+                    The Roaring Donkey
                   </strong>
                 </div>
                 <div className="content">

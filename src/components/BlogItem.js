@@ -2,12 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import * as Markdown from 'react-markdown'
 import moment from 'moment'
+
 const BlogItem = (props) => (
   <div className="box">
     <article className="media">
       <div className="media-left">
         <figure className="image is-64x64">
-          <img src={props.icon} alt="Image" />
+          <img src={props.icon} alt="" />
         </figure>
       </div>
       <div className="media-content">
