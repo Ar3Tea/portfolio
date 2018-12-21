@@ -1,4 +1,6 @@
-/* Major Classes */
+/* ============
+  Main Classes
+===============*/
 
 .App {
   text-align: center;
@@ -40,7 +42,9 @@
   align: left;
 }
 
-/* Popup Classes */
+/* ==============
+  Pop-up Classes
+=================*/
 
 .modal {
   font-size: 16px;
@@ -77,7 +81,9 @@
   border: 1px solid #cfcece;
 }
 
-/* Global Classes */
+/* ==============
+  Global Classes
+=================*/
 
 a {
   color: #53b3cb;
@@ -85,7 +91,9 @@ a {
 
 
 
-/* Small Adjustments */
+/* =========
+  Adjusters
+============*/
 
 .left {
   text-align: left;
@@ -117,7 +125,9 @@ a {
   width: 50%;
 }
 
-/* Media Queries and Keyframes */
+/* ==========================
+Media Queries and Keyframes
+=============================*/
 
 @media all and (max-width: 600px) {
   p {

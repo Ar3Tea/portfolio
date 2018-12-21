@@ -14,7 +14,7 @@ class Footer extends Component {
               <img src={logoReact} className="App-logo" alt="logo" />
           </div>
       </div>
-        Made  with  <i class="fa fa-heart" />  and  <i class="fab fa-react" />,  by me!
+        Made  with  <i class="fa fa-heart" />  and  <i class="fab fa-react" />,  by <a href="https://github.com/Ar3Tea" target="_blank">me</a>!
       </div>
     );
   }
