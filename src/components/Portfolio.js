@@ -8,7 +8,7 @@ import '../styles/App.css';
 import logoReact from '../styles/logo.svg';
 import gig1 from '../styles/GFM.jpg';
 import gig2 from '../styles/ScootersnChairs-Helpcenter-hover.jpg';
-import gig2 from '../styles/Roaring-Donkey-Whiskey.jpg';
+import gig3 from '../styles/Roaring-Donkey-Whiskey.jpg';
 
 class Portfolio extends Component {
   render() {
@@ -147,7 +147,7 @@ class Portfolio extends Component {
         </div>
       </div>
 
-      <div className="fl w-50 pa3 none">
+      <div className="fl w-50 pa3">
         <div className="outline tc pv3">
           <Popup className="animate" trigger={<img src = {
               logoReact
