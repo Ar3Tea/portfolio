@@ -9,6 +9,7 @@ import logoReact from '../styles/logo.svg';
 import gig1 from '../styles/GFM.jpg';
 import gig2 from '../styles/ScootersnChairs-Helpcenter-hover.jpg';
 import gig3 from '../styles/Roaring-Donkey-Whiskey.jpg';
+import gig4 from '../styles/react-qa-app.jpg';
 
 class Portfolio extends Component {
   render() {
@@ -158,27 +159,30 @@ class Portfolio extends Component {
 
                 <div className="header">
                   <strong>
-                    Go Feed Me
+                    React Q&A App
                   </strong>
                 </div>
                 <div className="content">
                   {' '}
-                  A beautiful food delivery site, similar to GrubHub, for Rural Georgia. The site was built using Codeigniter, but was unfortunately severely restricted by the agency who built it initially. The business owner came to me in hopes she could further her design and regain access to more parts of their site. This is what I gave them:
+                    A Q&A App built in React. This app utilizes Node and Express on the backend to support the Questions and Answers API.
                   <br/>
                   <br/>
-                  <img src={gig1} alt="gig"/>
+                  <img src={gig4} alt="gig"/>
                   <br/>
                   <br/>
-                  Transferring all the old code from a CentOS server to a new WordPress setup, allowed the business owner to regain control of their site, and allowed me to give them a much more fluid design.
+                    This app also uses AuthO for logging in via email or Google, as well as authorization to answer questions.
+                    Non-authorized users can see questions and answers, but only authorized users can submit answers.
                 </div>
                 <div className="actions">
                   <Popup trigger={<button className = "button" > Tech < /button>} position="top center" closeOnDocumentClick="closeOnDocumentClick">
                     <span className="popup">
-                      CSS customization
+                      ReactJS
                       <br/>
-                      JavaScript customization
+                      NodeJS
                       <br/>
-                      PayPal integration
+                      Express
+                      <br/>
+                      AuthO
                     </span>
                   </Popup>
 
