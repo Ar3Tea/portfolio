@@ -6,9 +6,9 @@ const PageHeader = (props) => (
         <h1 className="title">
           {props.title}
         </h1>
-        <h2 className="subtitle">
+        <p className="subtitle">
           {props.children}
-        </h2>
+        </p>
       </div>
     </div>
   </section>
