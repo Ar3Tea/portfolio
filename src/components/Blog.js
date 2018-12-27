@@ -4,6 +4,7 @@ import { Route, Link, Switch} from "react-router-dom";
 import Banner from '../components/Banner.js';
 import BlogItem from '../components/BlogItem.js';
 import Home from '../components/Home.js';
+import PageHeader from '../components/PageHeader.js';
 
 class Blog extends React.Component {
   state = {
@@ -27,7 +28,9 @@ class Blog extends React.Component {
     return (
       <div>
         <Banner />
-        <h1>Coding Blog</h1>
+          <PageHeader color="is-info" title="Coding Blog">
+            Your standard <strong>programming</strong> blog, albeit, probably not very good, but I will at least try to keep it entertaining. This blog is a chronological mix of random posts on JavaScript, HTML, CSS, Ruby on Rails, Liquid, React, Functional Programming, and my <strong>project walkthroughs</strong>.
+          </PageHeader>
         <br/>
         { this.state.posts.map(({fields}, i) =>
           <BlogItem key={i} {...fields} />

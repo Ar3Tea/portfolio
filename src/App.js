@@ -5,6 +5,7 @@ import Footer from './components/Footer.js';
 import Home from './components/Home.js';
 import Portfolio from './components/Portfolio.js';
 import Blog from './components/Blog.js';
+import BlogPost from './components/BlogPost.js';
 import './styles/App.css';
 
 class App extends Component {
@@ -17,7 +18,8 @@ class App extends Component {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/portfolio" component={Portfolio} />
-        <Route path="/blog" component={Blog} />
+        <Route exact path="/blog" component={Blog} />
+        <Route path='/blog/:blogPost' component={BlogPost}/>
       </Switch>
 
         <Footer />
