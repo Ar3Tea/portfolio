@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import * as contentful from 'contentful';
 import { Route, Link, Switch} from "react-router-dom";
 import Banner from '../components/Banner.js';
@@ -32,10 +32,10 @@ class Blog extends React.Component {
             Your standard <strong>programming</strong> blog, albeit, probably not very good, but I will at least try to keep it entertaining. This blog is a chronological mix of random posts on JavaScript, HTML, CSS, Ruby on Rails, Liquid, React, Functional Programming, and my <strong>project walkthroughs</strong>.
           </PageHeader>
         <br/>
+          <Link to="/" className="App-link"><h3><code>Back Home</code></h3></Link>
         { this.state.posts.map(({fields}, i) =>
           <BlogItem key={i} {...fields} />
         )}
-        <Link to="/" className="App-link"><h3><code>Back Home</code></h3></Link>
       <Switch>
         <Route exact path="/home" component={Home} />
       </Switch>

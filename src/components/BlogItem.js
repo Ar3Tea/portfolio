@@ -1,7 +1,6 @@
 import React from 'react'
-import { Route, Link, Switch} from "react-router-dom";
-import BlogNav from '../components/BlogNav'
-import BlogContent from '../components/BlogContent'
+import { Link } from "react-router-dom";
+import BlogContent from '../components/BlogContent';
 
 const BlogItem = (props) => (
   <div className="box">
