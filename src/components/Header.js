@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Header extends Component {
   render() {
     return (
-      <div className="fl w-100 pa1 header">
+      <div className="fl w-100 pa1 header" id="header">
 
         <div className="fl w-20 pa2 dim">
           <p><code className="blue">const</code> <code>ryanTabassi</code>= <code className="orange">fullStackDeveloper;</code></p>

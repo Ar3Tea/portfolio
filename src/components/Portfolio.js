@@ -171,7 +171,7 @@ class Portfolio extends Component {
                   <br/>
                   <br/>
                     This app also uses AuthO for logging in via email or Google, as well as authorization to answer questions.
-                    Non-authorized users can see questions and answers, but only authorized users can submit answers.
+                    Non-authorized users can see questions and answers, but only authorized users can submit new questions and answers.
                 </div>
                 <div className="actions">
                   <Popup trigger={<button className = "button" > Tech < /button>} position="top center" closeOnDocumentClick="closeOnDocumentClick">
@@ -193,7 +193,7 @@ class Portfolio extends Component {
         </div>
       </div>
 
-      <div className="fl w-50 pa3 none">
+      <div className="fl w-50 pa3">
         <div className="outline tc pv3">
           <Popup className="animate" trigger={<img src = {
               logoReact
@@ -235,7 +235,7 @@ class Portfolio extends Component {
         </div>
       </div>
 
-      <div className="fl w-50 pa3 none">
+      <div className="fl w-50 pa3">
         <div className="outline tc pv3">
           <Popup className="animate" trigger={<img src = {
               logoReact
