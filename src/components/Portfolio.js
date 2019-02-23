@@ -65,9 +65,7 @@ class Portfolio extends Component {
 
       <div className="fl w-33 pa3">
         <div className="outline tc pv3">
-          <Popup className="animate" trigger={<img src = {
-              logoReact
-            }
+          <Popup className="animate" trigger={<img src = {logoReact}
             className = "App-logo" alt = "gig" />} modal="modal">
             {
               close => (<div className="modal">
@@ -105,9 +103,7 @@ class Portfolio extends Component {
 
       <div className="fl w-33 pa3">
         <div className="outline tc pv3">
-          <Popup className="animate" trigger={<img src = {
-              logoReact
-            }
+          <Popup className="animate" trigger={<img src = {logoReact}
             className = "App-logo" alt = "gig" />} modal="modal">
             {
               close => (<div className="modal">
@@ -150,9 +146,7 @@ class Portfolio extends Component {
 
       <div className="fl w-33 pa3">
         <div className="outline tc pv3">
-          <Popup className="animate" trigger={<img src = {
-              logoReact
-            }
+          <Popup className="animate" trigger={<img src = {logoReact}
             className = "App-logo" alt = "gig" />} modal="modal">
             {
               close => (<div className="modal">
@@ -195,9 +189,7 @@ class Portfolio extends Component {
 
       <div className="fl w-33 pa3">
         <div className="outline tc pv3">
-          <Popup className="animate" trigger={<img src = {
-              logoReact
-            }
+          <Popup className="animate" trigger={<img src = {logoReact}
             className = "App-logo" alt = "gig" />} modal="modal">
             {
               close => (<div className="modal">
@@ -238,9 +230,7 @@ class Portfolio extends Component {
 
       <div className="fl w-33 pa3">
         <div className="outline tc pv3">
-          <Popup className="animate" trigger={<img src = {
-              logoReact
-            }
+          <Popup className="animate" trigger={<img src = {logoReact}
             className = "App-logo" alt = "gig" />} modal="modal">
             {
               close => (<div className="modal">
