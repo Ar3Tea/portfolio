@@ -26,7 +26,7 @@ class Portfolio extends Component {
 
                 <div className="header">
                   <strong>
-                  <a href="www.gofeedmedelivery.com" className="App-link">Go Feed Me</a>
+                  <a href="http://www.gofeedmedelivery.com" className="App-link">Go Feed Me</a>
                   </strong>
                 </div>
                 <div className="content">
@@ -40,7 +40,7 @@ class Portfolio extends Component {
                   Transferring all the old code from a CentOS server to a new WordPress setup, allowed the business owner to regain control of their site, and allowed me to give them a much more fluid design.
                 </div>
                 <div className="actions">
-                  <Popup trigger={<button className = "button" > Tech < /button>} position="top center" closeOnDocumentClick="closeOnDocumentClick">
+                  <Popup trigger={<button className = "button"> Tech </button>} position="top center" closeOnDocumentClick="closeOnDocumentClick">
                     <span className="popup">
                       CSS customization
                       <br/>
