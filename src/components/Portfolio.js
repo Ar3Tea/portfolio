@@ -26,7 +26,7 @@ class Portfolio extends Component {
 
                 <div className="header">
                   <strong>
-                  <Link to="www.gofeedmedelivery.com" className="App-link">Go Feed Me</Link>
+                  <a href="www.gofeedmedelivery.com" className="App-link">Go Feed Me</a>
                   </strong>
                 </div>
                 <div className="content">
@@ -74,7 +74,7 @@ class Portfolio extends Component {
 
                 <div className="header">
                   <strong>
-                  <Link to="https://www.scootersnchairs.com/pages/scooter-help-center" className="App-link">Scooters n Chairs</Link>
+                  <a href="https://www.scootersnchairs.com/pages/scooter-help-center" className="App-link">Scooters n Chairs</a>
                   </strong>
                 </div>
                 <div className="content">
@@ -88,7 +88,7 @@ class Portfolio extends Component {
                   The site was built on Shopify so Liquid played a part in making the Help Center future proof for the client. They also wanted a hover effect for each piece of the grid which I happily obliged.
                 </div>
                 <div className="actions">
-                  <Popup trigger={<button className = "button" > Tech < /button>} position="top center" closeOnDocumentClick="closeOnDocumentClick">
+                  <Popup trigger={<button className = "button"> Tech </button>} position="top center" closeOnDocumentClick="closeOnDocumentClick">
                     <span className="popup">
                       CSS customization
                       <br/>
@@ -114,7 +114,7 @@ class Portfolio extends Component {
 
                 <div className="header">
                   <strong>
-                  <Link to="https://jovial-haibt-bedaf5.netlify.com/" className="App-link">The Roaring Donkey</Link>
+                  <a href="https://jovial-haibt-bedaf5.netlify.com/" className="App-link">The Roaring Donkey</a>
                   </strong>
                 </div>
                 <div className="content">
@@ -131,7 +131,7 @@ class Portfolio extends Component {
                     I received compliments on the cleanliness of my code and organization of my CSS.
                 </div>
                 <div className="actions">
-                  <Popup trigger={<button className = "button" > Tech < /button>} position="top center" closeOnDocumentClick="closeOnDocumentClick">
+                  <Popup trigger={<button className = "button"> Tech </button>} position="top center" closeOnDocumentClick="closeOnDocumentClick">
                     <span className="popup">
                       HTML from scratch
                       <br/>
@@ -174,7 +174,7 @@ class Portfolio extends Component {
                     Non-authorized users can see questions and answers, but only authorized users can submit new questions and answers.
                 </div>
                 <div className="actions">
-                  <Popup trigger={<button className = "button" > Tech < /button>} position="top center" closeOnDocumentClick="closeOnDocumentClick">
+                  <Popup trigger={<button className = "button"> Tech </button>} position="top center" closeOnDocumentClick="closeOnDocumentClick">
                     <span className="popup">
                       ReactJS
                       <br/>
@@ -204,7 +204,7 @@ class Portfolio extends Component {
 
                 <div className="header">
                   <strong>
-                  <Link to="https://www.fasterpants.com/" className="App-link">Fasterpants</Link>
+                  <a href="https://www.fasterpants.com/" className="App-link">Fasterpants</a>
                   </strong>
                 </div>
                 <div className="content">
@@ -219,7 +219,7 @@ class Portfolio extends Component {
                   I completely tore down the old site rebuilt from scratch. After a lot of tweaking and building, we came out with this. Further iterations are planned.
                 </div>
                 <div className="actions">
-                  <Popup trigger={<button className = "button" > Tech < /button>} position="top center" closeOnDocumentClick="closeOnDocumentClick">
+                  <Popup trigger={<button className = "button"> Tech </button>} position="top center" closeOnDocumentClick="closeOnDocumentClick">
                     <span className="popup">
                       CSS/HTML customization
                       <br/>
@@ -247,7 +247,7 @@ class Portfolio extends Component {
 
                 <div className="header">
                   <strong>
-                  <Link to="https://sbarro.com/" className="App-link">Sbarro Pizza</Link>
+                  <a href="https://sbarro.com/" className="App-link">Sbarro Pizza</a>
                   </strong>
                 </div>
                 <div className="content">
@@ -262,7 +262,7 @@ class Portfolio extends Component {
                     The team at Sbarro was so pleased with my work we've begun discussing a more in-depth redesign.
                 </div>
                 <div className="actions">
-                  <Popup trigger={<button className = "button" > Tech < /button>} position="top center" closeOnDocumentClick="closeOnDocumentClick">
+                  <Popup trigger={<button className = "button"> Tech </button>} position="top center" closeOnDocumentClick="closeOnDocumentClick">
                     <span className="popup">
                       CSS/HTML customization
                       <br/>
