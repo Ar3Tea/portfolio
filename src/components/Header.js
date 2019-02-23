@@ -6,25 +6,25 @@ class Header extends Component {
       <div className="fl w-100 pa1 header" id="header">
 
         <div className="fl w-20 pa2 dim">
-          <p><code className="blue">const</code> <code>ryanTabassi</code>= <code className="orange">fullStackDeveloper;</code></p>
+          <p><code className="blue">const</code> <code>ryanTabassi</code> <code className="orange">fullStackDeveloper;</code></p>
         </div>
 
 
         <a href="https://linkedin.com/in/ryan-tabassi" target="_blank" rel="noopener noreferrer">
           <div className="fl w-20 pa1 dim">
-            <i class="fab fa-linkedin fa-2x"></i>
+            <i className="fab fa-linkedin fa-2x"></i>
           </div>
         </a>
 
         <a href="https://twitter.com/Ar3Tea" target="_blank" rel="noopener noreferrer">
           <div className="fl w-20 pa1 dim ">
-            <i class="fab fa-twitter fa-2x"></i>
+            <i className="fab fa-twitter fa-2x"></i>
           </div>
         </a>
 
         <a href="https://github.com/ar3tea" target="_blank" rel="noopener noreferrer">
           <div className="fl w-20 pa1 dim">
-            <i class="fab fa-github fa-2x"></i>
+            <i className="fab fa-github fa-2x"></i>
           </div>
         </a>
 

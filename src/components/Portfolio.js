@@ -10,23 +10,23 @@ import gig1 from '../styles/GFM.jpg';
 import gig2 from '../styles/ScootersnChairs-Helpcenter-hover.jpg';
 import gig3 from '../styles/Roaring-Donkey-Whiskey.jpg';
 import gig4 from '../styles/react-qa-app.jpg';
+import gig5 from '../styles/Fasterpants.jpg';
+import gig6 from '../styles/SbarroPizza.jpg';
 
 class Portfolio extends Component {
   render() {
     return (<div>
       <Banner/>
-      <div className="fl w-50 pa3">
+      <div className="fl w-33 pa3">
         <div className="outline tc pv3">
-          <Popup className="animate" trigger={<img src = {
-              logoReact
-            }
+          <Popup className="animate" trigger={<img src = {logoReact}
             className = "App-logo" alt = "gig" />} modal="modal">
             {
               close => (<div className="modal">
 
                 <div className="header">
                   <strong>
-                    Go Feed Me
+                  <Link to="www.gofeedmedelivery.com" className="App-link">Go Feed Me</Link>
                   </strong>
                 </div>
                 <div className="content">
@@ -63,7 +63,7 @@ class Portfolio extends Component {
         </div>
       </div>
 
-      <div className="fl w-50 pa3">
+      <div className="fl w-33 pa3">
         <div className="outline tc pv3">
           <Popup className="animate" trigger={<img src = {
               logoReact
@@ -74,7 +74,7 @@ class Portfolio extends Component {
 
                 <div className="header">
                   <strong>
-                    Scooters n Chairs
+                  <Link to="https://www.scootersnchairs.com/pages/scooter-help-center" className="App-link">Scooters n Chairs</Link>
                   </strong>
                 </div>
                 <div className="content">
@@ -103,7 +103,7 @@ class Portfolio extends Component {
         </div>
       </div>
 
-      <div className="fl w-50 pa3">
+      <div className="fl w-33 pa3">
         <div className="outline tc pv3">
           <Popup className="animate" trigger={<img src = {
               logoReact
@@ -114,7 +114,7 @@ class Portfolio extends Component {
 
                 <div className="header">
                   <strong>
-                    The Roaring Donkey
+                  <Link to="https://jovial-haibt-bedaf5.netlify.com/" className="App-link">The Roaring Donkey</Link>
                   </strong>
                 </div>
                 <div className="content">
@@ -148,7 +148,7 @@ class Portfolio extends Component {
         </div>
       </div>
 
-      <div className="fl w-50 pa3">
+      <div className="fl w-33 pa3">
         <div className="outline tc pv3">
           <Popup className="animate" trigger={<img src = {
               logoReact
@@ -193,7 +193,7 @@ class Portfolio extends Component {
         </div>
       </div>
 
-      <div className="fl w-50 pa3">
+      <div className="fl w-33 pa3">
         <div className="outline tc pv3">
           <Popup className="animate" trigger={<img src = {
               logoReact
@@ -204,27 +204,28 @@ class Portfolio extends Component {
 
                 <div className="header">
                   <strong>
-                    Go Feed Me
+                  <Link to="https://www.fasterpants.com/" className="App-link">Fasterpants</Link>
                   </strong>
                 </div>
                 <div className="content">
                   {' '}
-                  A beautiful food delivery site, similar to GrubHub, for Rural Georgia. The site was built using Codeigniter, but was unfortunately severely restricted by the agency who built it initially. The business owner came to me in hopes she could further her design and regain access to more parts of their site. This is what I gave them:
+                    Fasterpants is a fashion business out of New York City. The owner of this startup came to me with a very outdated and unintuitive platform to showcase is work.
                   <br/>
                   <br/>
-                  <img src={gig1} alt="gig"/>
+                  <img src={gig5} alt="gig"/>
                   <br/>
                   <br/>
-                  Transferring all the old code from a CentOS server to a new WordPress setup, allowed the business owner to regain control of their site, and allowed me to give them a much more fluid design.
+                  A beautiful outfit algorithm was being hidden behind terrible flow and design so the user was hard pressed to get to where they needed to be.
+                  I completely tore down the old site rebuilt from scratch. After a lot of tweaking and building, we came out with this. Further iterations are planned.
                 </div>
                 <div className="actions">
                   <Popup trigger={<button className = "button" > Tech < /button>} position="top center" closeOnDocumentClick="closeOnDocumentClick">
                     <span className="popup">
-                      CSS customization
+                      CSS/HTML customization
                       <br/>
                       JavaScript customization
                       <br/>
-                      PayPal integration
+                      Ruby on Rails
                     </span>
                   </Popup>
 
@@ -235,7 +236,7 @@ class Portfolio extends Component {
         </div>
       </div>
 
-      <div className="fl w-50 pa3">
+      <div className="fl w-33 pa3">
         <div className="outline tc pv3">
           <Popup className="animate" trigger={<img src = {
               logoReact
@@ -246,27 +247,34 @@ class Portfolio extends Component {
 
                 <div className="header">
                   <strong>
-                    Go Feed Me
+                  <Link to="https://sbarro.com/" className="App-link">Sbarro Pizza</Link>
                   </strong>
                 </div>
                 <div className="content">
                   {' '}
-                  A beautiful food delivery site, similar to GrubHub, for Rural Georgia. The site was built using Codeigniter, but was unfortunately severely restricted by the agency who built it initially. The business owner came to me in hopes she could further her design and regain access to more parts of their site. This is what I gave them:
+                    I was sub-contracted to help the Dev and Marketing team at Sbarro Pizza with some new connections, adding new areas for content, and switching headers from images to indexable text.
                   <br/>
                   <br/>
-                  <img src={gig1} alt="gig"/>
+                  <img src={gig6} alt="gig"/>
                   <br/>
                   <br/>
-                  Transferring all the old code from a CentOS server to a new WordPress setup, allowed the business owner to regain control of their site, and allowed me to give them a much more fluid design.
+                    Sbarro has a unique setup due to all their franchises and locations (over 600), so it utilizes an API to pull in data to a WordPress frame. Utilizing Custom Fields, Custom API calls, and Custom Design.
+                    The team at Sbarro was so pleased with my work we've begun discussing a more in-depth redesign.
                 </div>
                 <div className="actions">
                   <Popup trigger={<button className = "button" > Tech < /button>} position="top center" closeOnDocumentClick="closeOnDocumentClick">
                     <span className="popup">
-                      CSS customization
+                      CSS/HTML customization
                       <br/>
                       JavaScript customization
                       <br/>
-                      PayPal integration
+                      API Usage
+                      <br />
+                      Custom Fields
+                      <br />
+                      PHP
+                      <br />
+                      WordPress
                     </span>
                   </Popup>
 
