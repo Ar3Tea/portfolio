@@ -12,6 +12,9 @@ import gig3 from '../styles/Roaring-Donkey-Whiskey.jpg';
 import gig4 from '../styles/react-qa-app.jpg';
 import gig5 from '../styles/Fasterpants.jpg';
 import gig6 from '../styles/SbarroPizza.jpg';
+import gig7 from '../styles/SbarroInternational.jpg';
+import gig8 from '../styles/realgoodmarketing.jpg';
+import gig9 from '../styles/Arctype-Labs.jpg';
 
 class Portfolio extends Component {
   render() {
@@ -265,6 +268,129 @@ class Portfolio extends Component {
                       PHP
                       <br />
                       WordPress
+                    </span>
+                  </Popup>
+
+                </div>
+              </div>)
+            }
+          </Popup>
+        </div>
+      </div>
+
+      <div className="fl w-33 pa3">
+        <div className="outline tc pv3">
+          <Popup className="animate" trigger={<img src = {logoReact}
+            className = "App-logo" alt = "gig" />} modal="modal">
+            {
+              close => (<div className="modal">
+
+                <div className="header">
+                  <strong>
+                  <a href="https://international.sbarro.com/" className="App-link">Sbarro International Franchise</a>
+                  </strong>
+                </div>
+                <div className="content">
+                  {' '}
+                    Sbarro was so pleased with my work that they asked me to build their International Franchise site!
+                  <br/>
+                  <br/>
+                  <img src={gig7} alt="gig"/>
+                  <br/>
+                  <br/>
+                    The Sbarro Marketing team had trouble making edits to their main site because of the complexity involved with its architecture. With that in mind
+                    Sbarro asked me to specifically build them a site they would have easy editable control over in the future. This was a challenge with their design,
+                    but it was quite fun, and I succeeded! This is their WordPress site I built for them.
+                </div>
+                <div className="actions">
+                  <Popup trigger={<button className = "button"> Tech </button>} position="top center" closeOnDocumentClick="closeOnDocumentClick">
+                    <span className="popup">
+                      CSS/HTML customization
+                      <br/>
+                      JavaScript customization
+                      <br/>
+                      WordPress
+                    </span>
+                  </Popup>
+
+                </div>
+              </div>)
+            }
+          </Popup>
+        </div>
+      </div>
+
+      <div className="fl w-33 pa3">
+        <div className="outline tc pv3">
+          <Popup className="animate" trigger={<img src = {logoReact}
+            className = "App-logo" alt = "gig" />} modal="modal">
+            {
+              close => (<div className="modal">
+
+                <div className="header">
+                  <strong>
+                  <a href="https://realgood.marketing" className="App-link">Real Good Marketing</a>
+                  </strong>
+                </div>
+                <div className="content">
+                  {' '}
+                    A small marketing collective startup that needed some web visibility. After contracting with them for a bit, I was asked to get the live on the web!
+                  <br/>
+                  <br/>
+                  <img src={gig8} alt="gig"/>
+                  <br/>
+                  <br/>
+                    A very fun styled theme in WordPress that tells the story of the company, showcases the work, testimonials and team. This was a fun project
+                    since I got to play with a lot more colors than normal. And icons that screamed FUN!
+                </div>
+                <div className="actions">
+                  <Popup trigger={<button className = "button"> Tech </button>} position="top center" closeOnDocumentClick="closeOnDocumentClick">
+                    <span className="popup">
+                      CSS/HTML customization
+                      <br/>
+                      JavaScript customization
+                      <br/>
+                      WordPress
+                    </span>
+                  </Popup>
+
+                </div>
+              </div>)
+            }
+          </Popup>
+        </div>
+      </div>
+
+      <div className="fl w-33 pa3">
+        <div className="outline tc pv3">
+          <Popup className="animate" trigger={<img src = {logoReact}
+            className = "App-logo" alt = "gig" />} modal="modal">
+            {
+              close => (<div className="modal">
+
+                <div className="header">
+                  <strong>
+                  <a href="#" className="App-link">Arcytybe Labs</a>
+                  </strong>
+                </div>
+                <div className="content">
+                  {' '}
+                    A landing page for a Machine Learning company providing services to the Enterprise and Start-ups.
+                  <br/>
+                  <br/>
+                  <img src={gig9} alt="gig"/>
+                  <br/>
+                  <br/>
+                    This landing page was built in ReactJS Utilizing a Figma design file. This design was very aesthetically pleasing with the
+                    pastel colors used and really unique icons. One challenge was being able to place unique backgrounds in unique places in order
+                    to give the overall feel of technology driven services.
+                </div>
+                <div className="actions">
+                  <Popup trigger={<button className = "button"> Tech </button>} position="top center" closeOnDocumentClick="closeOnDocumentClick">
+                    <span className="popup">
+                      CSS/HTML customization
+                      <br/>
+                      ReactJS
                     </span>
                   </Popup>
 
