@@ -8,7 +8,7 @@ class Header extends Component {
 
         <div className="fl w-20 pa2 dim">
         <Link to="/" className="App-link">
-        <p><code className="blue">const</code> <code>ryanTabassi</code> <code className="orange">fullStackDeveloper;</code></p>
+        <p><code className="blue">const</code> <code>ryanTabassi</code> <code className="orange"> = fullStackDeveloper;</code></p>
         </Link>
         </div>
 
