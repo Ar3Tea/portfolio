@@ -29,7 +29,7 @@ class Blog extends React.Component {
       <div>
         <Banner />
           <PageHeader color="is-info" title="Coding Blog">
-            Your standard <strong>programming</strong> blog, albeit, probably not very good, but I will at least try to keep it entertaining. This blog is a chronological mix of random posts on JavaScript, HTML, CSS, Ruby on Rails, Liquid, React, Functional Programming, and my <strong>project walkthroughs</strong>.
+            Your standard <strong>programming</strong> blog, albeit, probably not very good, but I will at least try to keep it entertaining. This blog is a chronological mix of random posts on JavaScript, HTML, CSS, Ruby on Rails, Liquid, PHP, APIs, React, Functional Programming, and more, as well as my <strong>project walkthroughs</strong>.
           </PageHeader>
         <br/>
           <Link to="/" className="App-link"><h3><code>Back Home</code></h3></Link>
