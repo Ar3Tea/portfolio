@@ -20,6 +20,9 @@ class Portfolio extends Component {
   render() {
     return (<div>
       <Banner/>
+      <div>
+      <span>Click any box to see a project I've done</span>
+      </div>
       <div className="fl w-33 pa3">
         <div className="outline tc pv3">
           <Popup className="animate" trigger={<img src = {logoReact}
