@@ -6,7 +6,7 @@ class Header extends Component {
     return (
       <div className="fl w-100 pa1 header" id="header">
 
-        <div className="fl w-20 pa2 dim">
+        <div className="fl w-20 pa2 dim mobile-poof">
         <Link to="/" className="App-link">
         <p><code className="blue">const</code> <code>ryanTabassi</code> <code className="orange"> = fullStackDeveloper;</code></p>
         </Link>
@@ -31,8 +31,8 @@ class Header extends Component {
           </div>
         </a>
 
-        <a href="mailto:ryan.tabassi@gmail.com">
-        <div className="fl w-20 pa1 dim"><p className="left"><strong><code>Ryan.Tabassi@Gmail.com</code></strong></p></div>
+        <a href="mailto:ryan.tabassi@gmail.com" className="mobile-poof">
+        <div className="fl w-20 pa1 dim"><p className="left"><strong><code>Ryan.Tabassi</code><code>@Gmail.com</code></strong></p></div>
         </a>
       </div>
     );

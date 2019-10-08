@@ -67,8 +67,6 @@ export default class Portfolio extends Component {
       </Link>
       <Switch>
         <Route exact="exact" path="/"/>
-        <Route exact="exact" path="showcase" component={Showcase}/>
-        <Route exact="exact" path="/gfm" component={Gfm}/>
       </Switch>
 
     </div>

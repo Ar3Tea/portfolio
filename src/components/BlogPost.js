@@ -7,6 +7,7 @@ const BlogPost = ({ location: { state: { props } }}) => (
   <PageContent>
     <BlogNav date={props.date} to="/blog" />
     <BlogContent {...props } />
+    <BlogNav date={props.date} to="/blog" />
   </PageContent>
 )
 export default BlogPost
