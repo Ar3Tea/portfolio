@@ -87,6 +87,11 @@ a {
 p {
   width: 65%;
   margin-left: 18%;
+  line-height: 1.25em;
+}
+
+code {
+  width: 65%;
 }
 
 
