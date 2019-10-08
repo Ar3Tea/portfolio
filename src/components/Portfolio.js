@@ -15,6 +15,7 @@ import gig6 from '../styles/SbarroPizza.jpg';
 import gig7 from '../styles/SbarroInternational.jpg';
 import gig8 from '../styles/realgoodmarketing.jpg';
 import gig9 from '../styles/Arctype-Labs.jpg';
+const data = require('../data.json');
 
 class Portfolio extends Component {
   render() {
@@ -24,6 +25,7 @@ class Portfolio extends Component {
       <span>Click any box to see a project I've done</span>
       </div>
       <div className="fl w-33 pa3">
+        {data.map((d, i) => 
         <div className="outline tc pv3">
           <Popup className="animate" trigger={<img src = {logoReact}
             className = "App-logo" alt = "gig" />} modal="modal">
@@ -32,7 +34,7 @@ class Portfolio extends Component {
 
                 <div className="header">
                   <strong>
-                  <a href="http://www.gofeedmedelivery.com" className="App-link">Go Feed Me</a>
+                  <a href={d.url} className="App-link">{d.title}</a>
                   </strong>
                 </div>
                 <div className="content">
@@ -67,6 +69,7 @@ class Portfolio extends Component {
             }
           </Popup>
         </div>
+        )}
       </div>
 
       <div className="fl w-33 pa3">
