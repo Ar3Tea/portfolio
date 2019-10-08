@@ -84,6 +84,10 @@ a {
   text-decoration: none;
 }
 
+App > p {
+  text-align: left;
+}
+
 
 
 /* =========
