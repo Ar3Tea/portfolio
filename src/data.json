@@ -1,65 +1,82 @@
 [
     {
-    "title":"",
-    "url":"",
-    "topDescription":"",
-    "image":"",
-    "bottomDescription":"",
-    "tech":""
+    "title":"Go Feed Me",
+    "url":"http://www.gofeedmedelivery.com",
+    "topDescription":"A beautiful food delivery site, similar to GrubHub, for Rural Georgia. The site was built using Codeigniter, but was unfortunately severely restricted by the agency who built it initially. The business owner came to me in hopes she could further her design and regain access to more parts of their site. This is what I gave them:",
+    "image":"GFM.jpg",
+    "bottomDescription":"Transferring all the old code from a CentOS server to a new WordPress setup, allowed the business owner to regain control of their site, and allowed me to give them a much more fluid design.",
+    "tech":"CSS customization, JavaScript customization, PayPal integration"
     },
 
     {
-    "title":"",
-    "url":"",
-    "topDescription":"",
-    "image":"",
-    "bottomDescription":"",
-    "tech":""
+    "title":"Scooters 'n Chairs",
+    "url":"https://www.scootersnchairs.com/pages/scooter-help-center",
+    "topDescription":"A scooters and chairs business came to me asking for help with a new help center for their customers. They were interested in a sleek design similar to the Slack Help Center, and this is what I built for them:",
+    "image":"ScootersnChairs-Helpcenter-hover.jpg",
+    "bottomDescription":"The site was built on Shopify so Liquid played a part in making the Help Center future proof for the client. They also wanted a hover effect for each piece of the grid which I happily obliged.",
+    "tech":"CSS customization, Liquid"
     },
 
     {
-    "title":"",
-    "url":"",
-    "topDescription":"",
-    "image":"",
-    "bottomDescription":"",
-    "tech":""
-    },
-        
+    "title":"The Roaring Donkey",
+    "url":"https://jovial-haibt-bedaf5.netlify.com/",
+    "topDescription":"A great minimalist site for a Whiskey company. The owners came to me with a design from Adobe and asked me to 'make it real' for them. Anyone who has worked with Adobe tools before knows how overly complicated and cluttered the code can be coming from there. So I decided to write this entire site from scratch to reduce the clutter.",
+    "image":"Roaring-Donkey-Whiskey.jpg",
+    "bottomDescription":"Fully responsive with a nice mobile hamburger menu, and a page template for the owners to add to the site whenever they'd like. I received compliments on the cleanliness of my code and organization of my CSS.",
+    "tech":"HTML from scratch, CSS from scratch, Template page creation for future additions"
+    },   
 
     {
-    "title":"",
-    "url":"",
-    "topDescription":"",
-    "image":"",
-    "bottomDescription":"",
-    "tech":""
-    },
-
-    {
-    "title":"",
-    "url":"",
-    "topDescription":"",
-    "image":"",
-    "bottomDescription":"",
-    "tech":""
+    "title":"React Q&A App",
+    "url":"#",
+    "topDescription":"A Q&A App built in React. This app utilizes Node and Express on the backend to support the Questions and Answers API.",
+    "image":"react-qa-app.jpg",
+    "bottomDescription":"This app also uses AuthO for logging in via email or Google, as well as authorization to answer questions. Non-authorized users can see questions and answers, but only authorized users can submit new questions and answers.",
+    "tech":"ReactJS, NodeJS, Express, AuthO"
     },
 
     {
-    "title":"",
-    "url":"",
-    "topDescription":"",
-    "image":"",
-    "bottomDescription":"",
-    "tech":""
+    "title":"Fasterpants",
+    "url":"https://www.fasterpants.com/",
+    "topDescription":"Fasterpants is a fashion business out of New York City. The owner of this startup came to me with a very outdated and unintuitive platform to showcase is work.",
+    "image":"Fasterpants.jpg",
+    "bottomDescription":"A beautiful outfit algorithm was being hidden behind terrible flow and design so the user was hard pressed to get to where they needed to be. I completely tore down the old site rebuilt from scratch. After a lot of tweaking and building, we came out with this. Further iterations are planned.",
+    "tech":"CSS/HTML customization, JavaScript customization, Ruby on Rails"
     },
 
     {
-    "title":"",
-    "url":"",
-    "topDescription":"",
-    "image":"",
-    "bottomDescription":"",
-    "tech":""
-    }       
+    "title":"Sbarro Pizza",
+    "url":"https://sbarro.com/",
+    "topDescription":"I was sub-contracted to help the Dev and Marketing team at Sbarro Pizza with some new connections, adding new areas for content, and switching headers from images to indexable text.",
+    "image":"SbarroPizza.jpg",
+    "bottomDescription":"Sbarro has a unique setup due to all their franchises and locations (over 600), so it utilizes an API to pull in data to a WordPress frame. Utilizing Custom Fields, Custom API calls, and Custom Design. The team at Sbarro was so pleased with my work we've begun discussing a more in-depth redesign.",
+    "tech":"CSS/HTML customization, JavaScript customization, API Usage, Custom Fields, PHP, WordPress"
+    },
+
+    {
+    "title":"Sbarro International Franchise",
+    "url":"https://international.sbarro.com/",
+    "topDescription":"Sbarro was so pleased with my work that they asked me to build their International Franchise site!",
+    "image":"SbarroInternational.jpg",
+    "bottomDescription":"The Sbarro Marketing team had trouble making edits to their main site because of the complexity involved with its architecture. With that in mind Sbarro asked me to specifically build them a site they would have easy editable control over in the future. This was a challenge with their design, but it was quite fun, and I succeeded! This is their WordPress site I built for them.",
+    "tech":"CSS/HTML customization, JavaScript customization, WordPress"
+    },
+
+    {
+    "title":"Real Good Marketing",
+    "url":"https://realgood.marketing",
+    "topDescription":"A small marketing collective startup that needed some web visibility. After contracting with them for a bit, I was asked to get the live on the web!",
+    "image":"realgoodmarketing.jpg",
+    "bottomDescription":"A very fun styled theme in WordPress that tells the story of the company, showcases the work, testimonials and team. This was a fun project since I got to play with a lot more colors than normal. And icons that screamed FUN!",
+    "tech":"CSS/HTML customization, JavaScript customization, WordPress"
+    },
+
+    {
+    "title":"Arcytybe Labs",
+    "url":"#",
+    "topDescription":"A landing page for a Machine Learning company providing services to the Enterprise and Start-ups.",
+    "image":"Arctype-Labs.jpg",
+    "bottomDescription":"This landing page was built in ReactJS Utilizing a Figma design file. This design was very aesthetically pleasing with the pastel colors used and really unique icons. One challenge was being able to place unique backgrounds in unique places in order to give the overall feel of technology driven services.",
+    "tech":"CSS/HTML customization, ReactJS"
+    }     
 ]
