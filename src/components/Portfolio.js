@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {Link, Route, Switch} from 'react-router-dom'
 import Banner from '../components/Banner.js';
-import Showcase from '../components/Showcase.js';
 import Gfm from '../components/Gfm.js';
 import Popup from "reactjs-popup";
 import '../styles/App.css';
