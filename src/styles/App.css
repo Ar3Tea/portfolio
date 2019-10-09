@@ -94,7 +94,8 @@ pre {
   background: black;
   width: 65%;
   margin-left: 18%;
-  padding: 1em;
+  padding: 2em 4em;
+  text-align: left;
   border-radius: 15px;
   line-height: 1.5em;
 }
