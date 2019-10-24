@@ -151,6 +151,9 @@ Media Queries and Keyframes
   #header > code {
     font-size: 15px;
   }
+  pre {
+    
+  }
   p {
     font-size: 20px;
     width: 100%;
