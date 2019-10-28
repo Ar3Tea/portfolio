@@ -11,7 +11,7 @@ class Message extends Component {
           <code>Welcome to Are's Basement</code>
         </h2>
         <h3>
-          <code>I'm constantly building out and improving his site, but you can check out my GitHub Page:</code>
+          <code>I'm constantly building out and improving this site, but you can check out my GitHub Page:</code>
         </h3>
         <a
           className="App-link"
@@ -22,7 +22,7 @@ class Message extends Component {
           <h4>GitHub Page</h4>
         </a>
         <h3>
-          <code>You can also look at my ever evolving Portfolio <Link to="/portfolio" className="App-link">Here</Link> Or read my expanding<Link to="/blog" className="App-link">Blog</Link></code>
+          <code>You can also look at my ever evolving Portfolio <Link to="/portfolio" className="App-link">Here</Link> Or read my expanding<Link to="/blog" className="App-link"> Blog</Link></code>
         </h3>
 
         <Switch>
