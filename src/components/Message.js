@@ -24,6 +24,9 @@ class Message extends Component {
         <h3>
           <code>You can also look at my ever evolving Portfolio <Link to="/portfolio" className="App-link">Here</Link> Or read my expanding<Link to="/blog" className="App-link"> Blog</Link></code>
         </h3>
+        <h4>
+          <code>I have taken a small break from updating this because I have been very focused on a new job I have landed!</code>
+        `</h4>
 
         <Switch>
           <Route exact path="/blog" component={Blog} />
