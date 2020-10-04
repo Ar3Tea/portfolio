@@ -26,7 +26,7 @@ class Message extends Component {
         </h3>
         <h4>
           <code>I have taken a small break from updating this because I have been very focused on a new job I have landed!</code>
-        `</h4>
+        </h4>
 
         <Switch>
           <Route exact path="/blog" component={Blog} />
